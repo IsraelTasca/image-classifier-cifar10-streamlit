@@ -6,7 +6,7 @@ O app foi desenvolvido em **Python** usando **Streamlit** para criar uma interfa
 
 ## Demonstração
 
-📸 O app permite:
+O app permite:
 
 - Treinar uma CNN com dados do CIFAR-10
 - Visualizar imagens de amostra do dataset
@@ -14,20 +14,20 @@ O app foi desenvolvido em **Python** usando **Streamlit** para criar uma interfa
 - Classificar a imagem enviada
 - Mostrar a confiança do modelo para cada classe
 
-## Dataset
+## Dataset 
 
 Utilizamos o **CIFAR-10**, que contém 60.000 imagens coloridas 32x32 divididas em 10 classes:
 
-- Avião
-- Automóvel
-- Pássaro
-- Gato
-- Veado
-- Cachorro
-- Sapo
-- Cavalo
-- Navio
-- Caminhão
+- Avião 
+- Automóvel 
+- Pássaro 
+- Gato 
+- Veado 
+- Cachorro 
+- Sapo 
+- Cavalo 
+- Navio 
+- Caminhão 
 
 ## Como rodar o projeto localmente 🛠️
 
@@ -36,13 +36,16 @@ Utilizamos o **CIFAR-10**, que contém 60.000 imagens coloridas 32x32 divididas 
 ```bash
 git clone https://github.com/IsraelTasca/image-classifier-cifar10-streamlit.git
 cd image-classifier-cifar10-streamlit
-2. Instale as dependências
-bash
-Copiar
-Editar
+```
+
+### 2. Instale as dependências
+
+```bash
 pip install -r requirements.txt
-3. Rode o app
-bash
-Copiar
-Editar
+```
+
+### 3. Rode o app
+
+```bash
 streamlit run app.py
+```
